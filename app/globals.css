@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body{
+    @apply bg-bodyColor text-white leading-loose;
+  }
+  .hoverEffect{
+    @apply transition-all cursor-pointer duration-300 ease-in-out;
+  }
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url('../fonts/JetBrains.woff2');
+}
