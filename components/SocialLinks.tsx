@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
@@ -7,12 +7,17 @@ const socialData = [
   {
     title: "Github",
     icon: <Github className="w-5 h-5" />,
-    link: "https://www.github.com",
+    link: "https://github.com/nishant0820",
   },
   {
     title: "Linkedin",
     icon: <Linkedin className="w-5 h-5" />,
-    link: "https://www.github.com",
+    link: "https://www.linkedin.com/in/nishant-gupta-74b5a7219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    title: "Instagram",
+    icon: <Instagram className="w-5 h-5" />,
+    link: "https://www.instagram.com/nishantstudy?igsh=MWg1d3E2OXlrbW03OQ==",
   },
 ];
 

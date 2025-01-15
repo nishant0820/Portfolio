@@ -13,7 +13,7 @@ const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const pathname = usePathname();
   return (
-    <header className="border-b border-b-hoverColor/10">
+    <header className="border-b border-b-hoverColor/10 sticky top-0 z-50 bg-bodyColor">
       <Container className="py-5 flex items-center justify-between">
         <Logo title="Nishant" subtitle="." />
         <div className="hidden md:inline-flex items-center gap-7 text-sm uppercase tracking-wide font-medium">

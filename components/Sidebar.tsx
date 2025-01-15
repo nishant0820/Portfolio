@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import { NavbarData } from "@/constants";
 import Link from "next/link";
 import SocialLinks from "./SocialLinks";
+import { useOutsideClick } from "@/hooks/use-outside-click";
 
 interface SidebarProps {
   isOpen: boolean;
@@ -12,9 +13,11 @@ interface SidebarProps {
 }
 
 const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, pathname }) => {
+  const sidebarRef = useOutsideClick<HTMLDivElement>(onClose);
   return (
     <div
-      className={`fixed inset-y-0 right-0 z-50 min-w-72 bg-bodyColor border-l border-l-hoverColor/20 shadow-xl shadow-lightSky/40 transform ${
+    ref={sidebarRef}
+      className={`fixed inset-y-0 right-0 z-50 min-w-72 bg-bodyColor border-l border-l-hoverColor/20 transform ${
         isOpen ? "translate-x-0" : "translate-x-full"
       } hoverEffect`}
     >
@@ -31,6 +34,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, pathname }) => {
         <Logo title="Nishant" subtitle="." />
         {NavbarData?.map((item) => (
           <Link
+          onClick={onClose}
             key={item?.title}
             href={item?.href}
             className={`hover:text-hoverColor hoverEffect ${
