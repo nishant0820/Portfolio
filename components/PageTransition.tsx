@@ -7,7 +7,7 @@ interface Props {
   className?: string;
 }
 
-const PageTransition = ({ children }: Props) => {
+const PageTransition = ({ children, className }: Props) => {
   const pathname = usePathname();
   return (
     <AnimatePresence>

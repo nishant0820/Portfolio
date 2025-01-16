@@ -8,6 +8,12 @@
   .hoverEffect{
     @apply transition-all cursor-pointer duration-300 ease-in-out;
   }
+  .text-outline{
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  .text-outline-hover{
+    -webkit-text-stroke: 1px #00ff99;
+  }
 }
 
 @font-face {
