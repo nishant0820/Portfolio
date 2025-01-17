@@ -1,3 +1,5 @@
+import projectOne from "@/images/projectOne.png";
+
 export const NavbarData = [
   { title: "Home", href: "/" },
   { title: "Services", href: "/services" },
@@ -106,3 +108,26 @@ export const tabContent = {
     languages: ["English", "Hindi"],
   },
 };
+
+export const projects = [
+  {
+    id: "01",
+    title: "E-commerce",
+    category: "Full Stack",
+    description: "A modern E-commerce platform built with Next.js",
+    stack: ["Next.js", "Tailwind CSS"],
+    image: projectOne,
+    liveUrl: "",
+    githubUrl: "https://github.com/nishant0820",
+  },
+  {
+    id: "02",
+    title: "E-commerce",
+    category: "Full Stack",
+    description: "A modern E-commerce platform built with Next.js",
+    stack: ["Next.js", "Tailwind CSS"],
+    image: projectOne,
+    liveUrl: "",
+    githubUrl: "https://github.com/nishant0820",
+  },
+];
