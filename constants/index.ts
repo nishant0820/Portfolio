@@ -5,7 +5,6 @@ export const NavbarData = [
   { title: "Services", href: "/services" },
   { title: "Resume", href: "/resume" },
   { title: "Work", href: "/work" },
-  { title: "Contact", href: "/contact" },
 ];
 
 export const statsData = [
