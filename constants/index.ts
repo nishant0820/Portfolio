@@ -20,7 +20,7 @@ export const servicesData = [
     title: "Web Development",
     description:
       "Developed an E-Commerce Website using MERN, Stripe and Razorpay for Payment Integration to my website. This website is for purchasing clothes",
-    href: "https://www.google.com",
+    href: "https://github.com/nishant0820/Ecommerce-using-React-Mern-and-Stripe",
   },
   {
     id: "02",
