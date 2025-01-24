@@ -19,43 +19,29 @@ export const servicesData = [
     id: "01",
     title: "Web Development",
     description:
-      "Developed an E-Commerce Website using MERN, Stripe and Razorpay for Payment Integration to my website. This website is for purchasing clothes",
+      "Developed an E-Commerce Website using MERN, Stripe and Razorpay for Payment Integration to my website. This website is for purchasing clothes.",
     href: "https://github.com/nishant0820/Ecommerce-using-React-Mern-and-Stripe",
   },
   {
     id: "02",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque at ratione. Iusto quae ipsum quaerat pariatur illo ipsa nobis.",
-    href: "https://www.google.com",
+      "Developed the Learning Management Portal using MERN and Stripe for Payment Integration. This website is made for a student learning portal.",
+    href: "https://github.com/nishant0820/Learning-Management-Portal",
   },
   {
     id: "03",
-    title: "Web Development",
+    title: "Flutter Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque at ratione. Iusto quae ipsum quaerat pariatur illo ipsa nobis.",
-    href: "https://www.google.com",
+      "Developed an E-Commerce App in Flutter. This app is made for purchasing and selling clothing products.",
+    href: "https://github.com/nishant0820/Ecommerce-with-Flutter",
   },
   {
     id: "04",
-    title: "Web Development",
+    title: "Advanced Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque at ratione. Iusto quae ipsum quaerat pariatur illo ipsa nobis.",
-    href: "https://www.google.com",
-  },
-  {
-    id: "05",
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque at ratione. Iusto quae ipsum quaerat pariatur illo ipsa nobis.",
-    href: "https://www.google.com",
-  },
-  {
-    id: "06",
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque at ratione. Iusto quae ipsum quaerat pariatur illo ipsa nobis.",
-    href: "https://www.google.com",
+      "Developed a Student Result Management System using Python and Mysql for database.",
+    href: "https://github.com/nishant0820/Student-Result-Management-System",
   },
 ];
 
