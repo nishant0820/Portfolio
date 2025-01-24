@@ -19,8 +19,7 @@ export const servicesData = [
     id: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque at ratione. Iusto quae ipsum quaerat pariatur illo ipsa nobis.",
-    href: "https://www.google.com",
+      "Developed an E-Commerce Website using MERN and Stripe and Razorpay for Payment Integration to my website. This website is for purchasing clothes",
   },
   {
     id: "02",
