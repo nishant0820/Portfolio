@@ -2,7 +2,7 @@ import projectOne from "@/images/projectOne.png";
 
 export const NavbarData = [
   { title: "Home", href: "/" },
-  { title: "Tech Stack", href: "/services" },
+  { title: "Certifications", href: "/services" },
   { title: "Resume", href: "/resume" },
   { title: "Project", href: "/work" },
 ];
