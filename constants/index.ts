@@ -2,9 +2,9 @@ import projectOne from "@/images/projectOne.png";
 
 export const NavbarData = [
   { title: "Home", href: "/" },
-  { title: "Services", href: "/services" },
+  { title: "Tech Stack", href: "/services" },
   { title: "Resume", href: "/resume" },
-  { title: "Work", href: "/work" },
+  { title: "Project", href: "/work" },
 ];
 
 export const statsData = [
