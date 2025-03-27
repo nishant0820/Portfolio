@@ -14,34 +14,21 @@ export const statsData = [
   { num: 500, text: "Code commits" },
 ];
 
-export const servicesData = [
+export const certificationsData = [
   {
-    id: "01",
-    title: "Web Development",
-    description:
-      "Developed an E-Commerce Website using MERN, Stripe and Razorpay for Payment Integration to my website. This website is for purchasing clothes.",
-    href: "https://github.com/nishant0820/Ecommerce-using-React-Mern-and-Stripe",
+id: "01",
+    title: "AWS Certified Solutions Architect",
+    issuer: "Amazon Web Services",
+    date: "March 2025",
+    credentialID: "XYZ-12345",
+    href: "https://aws.com/certifications/xyz",
   },
   {
-    id: "02",
-    title: "Web Development",
-    description:
-      "Developed the Learning Management Portal using MERN and Stripe for Payment Integration. This website is made for a student learning portal.",
-    href: "https://github.com/nishant0820/Learning-Management-Portal",
-  },
-  {
-    id: "03",
-    title: "Flutter Development",
-    description:
-      "Developed an E-Commerce App in Flutter. This app is made for purchasing and selling clothing products.",
-    href: "https://github.com/nishant0820/Ecommerce-with-Flutter",
-  },
-  {
-    id: "04",
-    title: "Advanced Python",
-    description:
-      "Developed a Student Result Management System using Python and Mysql for database.",
-    href: "https://github.com/nishant0820/Student-Result-Management-System",
+    title: "Google Professional Cloud Architect",
+    issuer: "Google Cloud",
+    date: "February 2025",
+    credentialID: "ABC-67890",
+    link: "https://google.com/certifications/abc",
   },
 ];
 
