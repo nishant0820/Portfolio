@@ -1,10 +1,18 @@
 import projectOne from "@/images/projectOne.png";
+import certificateOne from "@/images/certificateOne.png";
+import certificateTwo from "@/images/certificateTwo.png";
+import certificateThree from "@/images/certificateThree.png";
+import certificateFour from "@/images/certificateFour.png";
+import certificateFive from "@/images/certificateFive.png";
+import certificateSix from "@/images/certificateSix.png";
+import certificateSeven from "@/images/certificateSeven.png";
+import certificateEight from "@/images/certificateEight.png";
 
 export const NavbarData = [
   { title: "Home", href: "/" },
-  { title: "Certifications", href: "/services" },
+  { title: "Certifications", href: "/certificates" },
   { title: "Resume", href: "/resume" },
-  { title: "Project", href: "/work" },
+  { title: "Project", href: "/project" },
 ];
 
 export const statsData = [
@@ -16,19 +24,60 @@ export const statsData = [
 
 export const certificationsData = [
   {
-id: "01",
-    title: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    date: "March 2025",
-    credentialID: "XYZ-12345",
-    href: "https://aws.com/certifications/xyz",
+    id: "01",
+    title: "ETHICAL HACKING",
+    issuer: "IIT Delhi",
+    date: "Feb 2024",
+    image: certificateOne,
   },
   {
-    title: "Google Professional Cloud Architect",
-    issuer: "Google Cloud",
-    date: "February 2025",
-    credentialID: "ABC-67890",
-    link: "https://google.com/certifications/abc",
+    id: "02",
+    title: "IMPLEMENTATION OF AI",
+    issuer: "VIGYANTRAM",
+    date: "Jan 2022",
+    image: certificateTwo,
+  },
+  {
+    id: "03",
+    title: "HTC 3.0 24-HOUR HACKATHON",
+    issuer: "BVCOE, DELHI",
+    date: "March 2024",
+    image: certificateThree,
+  },
+  {
+    id: "04",
+    title: "TALENT HUNT COMPETITION",
+    issuer: "HMRITM, DELHI",
+    date: "March 2024",
+    image: certificateFour,
+  },
+  {
+    id: "05",
+    title: "INTERVIEW MASTERCLASS",
+    issuer: "CHERAG BACHHAWAT",
+    date: "Jan 2023",
+    image: certificateFive,
+  },
+  {
+    id: "06",
+    title: "DATA ANALYTICS WITH AI",
+    issuer: "CODING BLOCKS",
+    date: "Feb 2025",
+    image: certificateSix,
+  },
+  {
+    id: "07",
+    title: "GEN AI MASTERCLASS",
+    issuer: "ACCELERATOR X",
+    date: "Feb 2025",
+    image: certificateSeven,
+  },
+  {
+    id: "08",
+    title: "DATA SCIENCE",
+    issuer: "GUVI HCL",
+    date: "Feb 2025",
+    image: certificateEight,
   },
 ];
 
