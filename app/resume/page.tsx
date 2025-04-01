@@ -47,6 +47,10 @@ const skills = {
       name: "Tailwind.css",
     },
     {
+      icon: <SiMongodb />,
+      name: "Mongodb",
+    },
+    {
       icon: <FaNodeJs />,
       name: "Node.js",
     },
