@@ -47,10 +47,6 @@ const skills = {
       name: "Tailwind.css",
     },
     {
-      icon: <SiMongodb />,
-      name: "Mongodb",
-    },
-    {
       icon: <FaNodeJs />,
       name: "Node.js",
     },
@@ -185,18 +181,18 @@ const ResumePage = () => {
                 </div>
                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                   {skills.skillList.map((skill, index) => {
-                    return <li key={index}>
+                    return (<li key={index}>
                       <TooltipProvider delayDuration={100}>
                         <Tooltip>
                           <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                            <div className="text-6xl group-hover:text-accent transition-all duration-300">{skill.icon}</div>
+                            <div className="text-6xl group-hover:text-lightSky transition-all duration-300">{skill.icon}</div>
                           </TooltipTrigger>
                           <TooltipContent>
                             <p>{skill.name}</p>
                           </TooltipContent>
                         </Tooltip>
                       </TooltipProvider>
-                    </li>
+                    </li>);
                   })}
                 </ul>
               </div>
