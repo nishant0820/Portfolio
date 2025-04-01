@@ -178,7 +178,8 @@ const ResumePage = () => {
               </div>
             </TabsContent>
             {/* Skills */}
-            <div className="flex flex-col gap-[30px]">
+            <TabsContent value="skills">
+              <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h2 className="text-2xl font-bold mb-6 text-lightSky">{skills.title}</h2>
                 </div>
