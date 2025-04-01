@@ -180,10 +180,10 @@ const ResumePage = () => {
             {/* Skills */}
             <TabsContent value="skills">
               <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <div className="min-h-screen flex flex-col gap-[30px] text-center xl:text-left">
                   <h2 className="text-2xl font-bold mb-6 text-lightSky">{skills.title}</h2>
                 </div>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px] self-start">
                   {skills.skillList.map((skill, index) => {
                     return <li key={index}>
                       <TooltipProvider delayDuration={100}>
