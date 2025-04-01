@@ -101,7 +101,7 @@ export const tabContent = {
       {
         degree: "Bachelor of Technology",
         institution: "Guru Gobind Singh Indraprastha University",
-        period: "2024-2025",
+        period: "2022-2026",
         description: "Specialized in Software development and computer science",
         achievements: ["8.2GPA"],
       },
