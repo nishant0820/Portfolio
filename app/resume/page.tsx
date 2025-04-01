@@ -178,32 +178,28 @@ const ResumePage = () => {
               </div>
             </TabsContent>
             {/* Skills */}
-<TabsContent value="skills" className="min-h-screen flex flex-col overflow-auto">
-  <div className="flex-1 flex flex-col gap-[30px]">
-    <div className="flex flex-col gap-[30px] text-center xl:text-left">
-      <h2 className="text-2xl font-bold mb-6 text-lightSky">{skills.title}</h2>
-    </div>
-    <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px] pb-0">
-      {skills.skillList.map((skill, index) => {
-        return (
-          <li key={index}>
-            <TooltipProvider delayDuration={100}>
-              <Tooltip>
-                <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                  <div className="text-6xl group-hover:text-accent transition-all duration-300">{skill.icon}</div>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>{skill.name}</p>
-                </TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
-          </li>
-        );
-      })}
-    </ul>
-  </div>
-</TabsContent>
-
+            <div className="flex flex-col gap-[30px]">
+                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                  <h2 className="text-2xl font-bold mb-6 text-lightSky">{skills.title}</h2>
+                </div>
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                  {skills.skillList.map((skill, index) => {
+                    return <li key={index}>
+                      <TooltipProvider delayDuration={100}>
+                        <Tooltip>
+                          <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                            <div className="text-6xl group-hover:text-accent transition-all duration-300">{skill.icon}</div>
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p>{skill.name}</p>
+                          </TooltipContent>
+                        </Tooltip>
+                      </TooltipProvider>
+                    </li>
+                  })}
+                </ul>
+              </div>
+            </TabsContent>
             {/* About */}
             <TabsContent value="about">
               <motion.h2
