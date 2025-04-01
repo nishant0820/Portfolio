@@ -105,6 +105,20 @@ export const tabContent = {
         description: "Specialized in Software development and computer science",
         achievements: ["8.2GPA"],
       },
+      {
+        degree: "Senior Secondary",
+        institution: "David Model Senior Secondary School",
+        period: "2020-2021",
+        description: "Passed from C.B.S.E. Board",
+        achievements: ["7.6 CGPA"],
+      },
+      {
+        degree: "Secondary",
+        institution: "David Model Senior Secondary School",
+        period: "2018-2019",
+        description: "Passed from C.B.S.E. Board",
+        achievements: ["8.4 CGPA"],
+      },
     ],
   },
   about: {
