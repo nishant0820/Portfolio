@@ -31,7 +31,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, onClose, pathname }) => {
         </button>
       </div>
       <nav className="flex flex-col px-5 gap-7 text-sm uppercase tracking-wide font-medium mt-2">
-        <Logo title="Nishant" subtitle="." />
+        <Logo title="Nishant" subtitle="Gupta" />
         {NavbarData?.map((item) => (
           <Link
           onClick={onClose}

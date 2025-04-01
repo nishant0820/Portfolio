@@ -1,11 +1,65 @@
 "use client";
 
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaPython,
+  FaFigma,
+} from "react-icons/fa";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { SiTailwindcss, SiMongodb, SiNextdotjs } from "react-icons/si";
 import Container from "@/components/Container";
 import { motion } from "motion/react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Briefcase, Calendar, Code2, GraduationCap, User } from "lucide-react";
 import { tabContent } from "@/constants";
 import { Badge } from "@/components/ui/badge";
+
+// skills data
+const skills = {
+  title: "Technical Skills",
+  skillList: [
+    {
+      icon: <FaHtml5 />,
+      name: "HTML 5",
+    },
+    {
+      icon: <FaCss3 />,
+      name: "CSS 3",
+    },
+    {
+      icon: <FaJs />,
+      name: "Javascript",
+    },
+    {
+      icon: <FaReact />,
+      name: "React.js",
+    },
+    {
+      icon: <SiNextdotjs />,
+      name: "Next.js",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwind.css",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "Node.js",
+    },
+    {
+      icon: <FaFigma />,
+      name: "Figma",
+    },
+    {
+      icon: <FaPython />,
+      name: "Python",
+    },
+  ]
+};
 
 const tabMenu = [
   { title: "Experience", value: "experience", icon: Briefcase },
@@ -121,35 +175,26 @@ const ResumePage = () => {
             </TabsContent>
             {/* Skills */}
             <TabsContent value="skills">
-              <motion.h2
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="text-2xl font-bold mb-6 text-lightSky"
-              >
-                {tabContent?.skills?.title}
-              </motion.h2>
-              <div className="space-y-6">
-                {tabContent?.skills?.categories?.map((item, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: index * 0.1 }}
-                    className="border rounded-lg border-lightSky/20 p-6"
-                  >
-                    <div className="flex flex-col gap-1 md:flex-row justify-between md:items-center mb-4">
-                      <h3 className="text-lg font-semibold">{item?.name}</h3>
-                    </div>
-                    <p className="mb-4 tracking-tighter">{item?.description}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {item?.skills?.map((skill, i) => (
-                        <Badge key={i} variant="secondary">
-                          {skill}
-                        </Badge>
-                      ))}
-                    </div>
-                  </motion.div>
-                ))}
+              <div className="flex flex-col gap-[30px]">
+                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                  <h2 className="text-2xl font-bold mb-6 text-lightSky">{skills.title}</h2>
+                </div>
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                  {skills.skillList.map((skill, index) => {
+                    return <li key={index}>
+                      <TooltipProvider delayDuration={100}>
+                        <Tooltip>
+                          <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                            <div className="text-6xl group-hover:text-accent transition-all duration-300">{skill.icon}</div>
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p>{skill.name}</p>
+                          </TooltipContent>
+                        </Tooltip>
+                      </TooltipProvider>
+                    </li>
+                  })}
+                </ul>
               </div>
             </TabsContent>
             {/* About */}

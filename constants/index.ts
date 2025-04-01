@@ -96,7 +96,7 @@ export const tabContent = {
     ],
   },
   education: {
-    title: "Eduucational Background",
+    title: "Educational Background",
     items: [
       {
         degree: "Bachelor of Technology",
@@ -104,16 +104,6 @@ export const tabContent = {
         period: "2024-2025",
         description: "Specialized in Software development and computer science",
         achievements: ["8.2GPA"],
-      },
-    ],
-  },
-  skills: {
-    title: "Technical Skills",
-    categories: [
-      {
-        name: "Frontend Development",
-        description: "Specialized in Software development and computer science",
-        skills: ["React", "Next.js"],
       },
     ],
   },
