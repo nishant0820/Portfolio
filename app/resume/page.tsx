@@ -10,7 +10,7 @@ import {
   FaFigma,
 } from "react-icons/fa";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { SiTailwindcss, SiMongodb, SiNextdotjs, SiPostman, SiRender, SiSupabase, SiVercel, SiGit, SiGithub } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiNextdotjs, SiPostman, SiRender, SiSupabase, SiVercel, SiGit, SiGithub, SiNetlify, SiFlutter } from "react-icons/si";
 import Container from "@/components/Container";
 import { motion } from "motion/react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -31,6 +31,10 @@ const skills = {
       name: "CSS 3",
     },
     {
+      icon: <FaFigma />,
+      name: "Figma",
+    },
+    {
       icon: <FaJs />,
       name: "Javascript",
     },
@@ -47,20 +51,24 @@ const skills = {
       name: "Tailwind.css",
     },
     {
-      icon: <SiMongodb />,
-      name: "Mongodb",
-    },
-    {
       icon: <FaNodeJs />,
       name: "Node.js",
     },
     {
-      icon: <FaFigma />,
-      name: "Figma",
+      icon: <SiMongodb />,
+      name: "Mongodb",
+    },
+    {
+      icon: <SiSupabase />,
+      name: "Supabase",
     },
     {
       icon: <FaPython />,
       name: "Python",
+    },
+    {
+      icon: <SiFlutter />,
+      name: "Flutter",
     },
     {
       icon: <SiPostman />,
@@ -69,10 +77,6 @@ const skills = {
     {
       icon: <SiRender />,
       name: "Render",
-    },
-    {
-      icon: <SiSupabase />,
-      name: "Supabase",
     },
     {
       icon: <SiVercel />,
@@ -85,6 +89,10 @@ const skills = {
     {
       icon: <SiGithub />,
       name: "GitHub",
+    },
+    {
+      icon: <SiNetlify />,
+      name: "Netlify",
     },
   ]
 };
