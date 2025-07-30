@@ -39,7 +39,7 @@ const WorkPage = () => {
                           {project?.id}
                         </h2>
                         <h3 className="text-xl md:text-2xl font-bold leading-none text-white">
-                          {project?.category} project
+                          {project?.category}
                         </h3>
                         <p className="text-white/60 text-sm md:text-base">
                           {project?.description}
