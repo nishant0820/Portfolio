@@ -1,4 +1,6 @@
 import projectOne from "@/images/projectOne.png";
+import projectTwo from "@/images/projectTwo.png";
+import projectThree from "@/images/projectThree.png";
 import certificateOne from "@/images/certificateOne.png";
 import certificateTwo from "@/images/certificateTwo.png";
 import certificateThree from "@/images/certificateThree.png";
@@ -239,7 +241,7 @@ export const projects = [
     category: "React Admin Dashboard with Real Time Data Charts Events",
     description: "Developed and maintained a React project with real time data charts and events",
     stack: ["React.js", "Typescript", "Graphql", "Razorpay", "Netlify"],
-    image: projectOne,
+    image: projectTwo,
     liveUrl: "https://reactdashboardlivecharts2024.netlify.app/",
     githubUrl: "https://github.com/nishant0820/React-Admin-Dashboard-with-Real-Time-Data-Charts-Events.git",
   },
@@ -249,7 +251,7 @@ export const projects = [
     category: "Crypto Website",
     description: "Developed and maintained a responsive landing page for a Crypto website",
     stack: ["HTML", "CSS", "JavaScript"],
-    image: projectOne,
+    image: projectThree,
     liveUrl: "https://crypto-website-fbbc.vercel.app/",
     githubUrl: "https://github.com/nishant0820/Crypto-Website.git",
   },
