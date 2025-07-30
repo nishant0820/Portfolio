@@ -127,6 +127,14 @@ export const tabContent = {
       },
       {
         role: "Python Advanced Project",
+        project: "AI Agent Chatbot",
+        period: "2025",
+        description:
+          "Developed and maintained a full stack AI Agent Chatbotn with web search integration and real time data processing",
+        highlights: ["Python", "OpenAI API", "Streamlit", "LangChain", "Langgraph", "Fastapi", "Uvicorn", "Tavily API", "Groq API"],
+      },
+      {
+        role: "Python Advanced Project",
         project: "Inventory Management System",
         period: "2024",
         description:
@@ -140,14 +148,6 @@ export const tabContent = {
         description:
           "Developed and maintained a complete Student Result Management System with connected database",
         highlights: ["Python", "MySQL"],
-      },
-      {
-        role: "Python Advanced Project",
-        project: "AI Agent Chatbot",
-        period: "2025",
-        description:
-          "Developed and maintained a full stack AI Agent Chatbotn with web search integration and real time data processing",
-        highlights: ["Python", "OpenAI API", "Streamlit", "LangChain", "Langgraph", "Fastapi", "Uvicorn", "Tavily API", "Groq API"],
       },
       {
         role: "Python App Development",
