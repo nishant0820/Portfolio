@@ -8,6 +8,9 @@ import certificateSix from "@/images/certificateSix.png";
 import certificateSeven from "@/images/certificateSeven.png";
 import certificateEight from "@/images/certificateEight.png";
 import certificateNine from "@/images/certificateNine.png";
+import certificateTen from "@/images/certificateTen.png";
+import certificateEleven from "@/images/certificateEleven.png";
+import certificateTwelve from "@/images/certificateTwelve.png";
 
 export const NavbarData = [
   { title: "Home", href: "/" },
@@ -86,6 +89,27 @@ export const certificationsData = [
     issuer: "INFOSYS SPRINGBOARD",
     date: "June 2025",
     image: certificateNine,
+  },
+  {
+    id: "10",
+    title: "SOFTWARE ENGINEERING AND AGILE SOFTWARE DEVELOPMENT",
+    issuer: "INFOSYS SPRINGBOARD",
+    date: "June 2025",
+    image: certificateTen,
+  },
+  {
+    id: "11",
+    title: "BASICS OF PYTHON",
+    issuer: "INFOSYS SPRINGBOARD",
+    date: "June 2025",
+    image: certificateEleven,
+  },
+  {
+    id: "12",
+    title: "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+    issuer: "INFOSYS SPRINGBOARD",
+    date: "June 2025",
+    image: certificateTwelve,
   },
 ];
 
