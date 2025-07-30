@@ -20,6 +20,7 @@ export const NavbarData = [
   { title: "Certifications", href: "/certificates" },
   { title: "Resume", href: "/resume" },
   { title: "Project", href: "/project" },
+  { title: "Contact Me", href: "/contact" },
 ];
 
 export const statsData = [
