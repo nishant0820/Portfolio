@@ -7,6 +7,7 @@ import certificateFive from "@/images/certificateFive.png";
 import certificateSix from "@/images/certificateSix.png";
 import certificateSeven from "@/images/certificateSeven.png";
 import certificateEight from "@/images/certificateEight.png";
+import certificateNine from "@/images/certificateNine.png";
 
 export const NavbarData = [
   { title: "Home", href: "/" },
@@ -16,8 +17,8 @@ export const NavbarData = [
 ];
 
 export const statsData = [
-  { num: 1, text: "Years of expience" },
-  { num: 17, text: "Projects Completed" },
+  { num: 3, text: "Years of expience" },
+  { num: 34, text: "Projects Completed" },
   { num: 10, text: "Technologies mastered" },
   { num: 500, text: "Code commits" },
 ];
@@ -78,6 +79,13 @@ export const certificationsData = [
     issuer: "GUVI HCL",
     date: "Feb 2025",
     image: certificateEight,
+  },
+  {
+    id: "09",
+    title: "INTRODUCTION TO NOSQL DATABASES",
+    issuer: "INFOSYS SPRINGBOARD",
+    date: "June 2025",
+    image: certificateNine,
   },
 ];
 
