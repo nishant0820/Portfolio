@@ -225,22 +225,13 @@ export const tabContent = {
 export const projects = [
   {
     id: "01",
-    title: "E-commerce",
-    category: "Full Stack",
-    description: "A modern E-commerce platform built with Next.js",
-    stack: ["Next.js", "Tailwind CSS"],
+    title: "E-commerce WebApp",
+    category: "Full Stack Project",
+    description: "A modern E-commerce platform built with React.js and Node.js",
+    stack: ["React.js", "Node.js", "Postman", "Supabase", "Netlify"],
     image: projectOne,
-    liveUrl: "",
+    liveUrl: "https://vedstationarygraphics.netlify.app/",
     githubUrl: "https://github.com/nishant0820",
   },
-  {
-    id: "02",
-    title: "E-commerce",
-    category: "Full Stack",
-    description: "A modern E-commerce platform built with Next.js",
-    stack: ["Next.js", "Tailwind CSS"],
-    image: projectOne,
-    liveUrl: "",
-    githubUrl: "https://github.com/nishant0820",
-  },
+  
 ];
