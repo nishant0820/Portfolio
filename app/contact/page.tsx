@@ -1,7 +1,6 @@
 "use client";
 
 import Container from "@/components/Container";
-import Title from "@/components/Title";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
