@@ -10,7 +10,7 @@ import {
   FaFigma,
 } from "react-icons/fa";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { SiTailwindcss, SiMongodb, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiNextdotjs, SiPostman, SiRender, SiSupabase, SiVercel, SiGit, SiGithub } from "react-icons/si";
 import Container from "@/components/Container";
 import { motion } from "motion/react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -61,6 +61,30 @@ const skills = {
     {
       icon: <FaPython />,
       name: "Python",
+    },
+    {
+      icon: <SiPostman />,
+      name: "Postman",
+    },
+    {
+      icon: <SiRender />,
+      name: "Render",
+    },
+    {
+      icon: <SiSupabase />,
+      name: "Supabase",
+    },
+    {
+      icon: <SiVercel />,
+      name: "Vercel",
+    },
+    {
+      icon: <SiGit />,
+      name: "Git",
+    },
+    {
+      icon: <SiGithub />,
+      name: "GitHub",
     },
   ]
 };
