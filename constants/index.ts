@@ -1,6 +1,7 @@
 import projectOne from "@/images/projectOne.png";
 import projectTwo from "@/images/projectTwo.png";
 import projectThree from "@/images/projectThree.png";
+import projectFour from "@/images/projectFour.png";
 import certificateOne from "@/images/certificateOne.png";
 import certificateTwo from "@/images/certificateTwo.png";
 import certificateThree from "@/images/certificateThree.png";
@@ -261,7 +262,7 @@ export const projects = [
     category: "3D Responsive Globe",
     description: "Developed and maintained a responsive landing page for 3D Globe",
     stack: ["HTML", "CSS", "Three.js"],
-    image: projectOne,
+    image: projectFour,
     liveUrl: "https://nishant0820.github.io/3D-Globe-using-Three.js/",
     githubUrl: "https://github.com/nishant0820/3D-Globe-using-Three.js.git",
   },
