@@ -83,16 +83,16 @@ const skills = {
       name: "Vercel",
     },
     {
+      icon: <SiNetlify />,
+      name: "Netlify",
+    },
+    {
       icon: <SiGit />,
       name: "Git",
     },
     {
       icon: <SiGithub />,
       name: "GitHub",
-    },
-    {
-      icon: <SiNetlify />,
-      name: "Netlify",
     },
   ]
 };
