@@ -118,12 +118,68 @@ export const tabContent = {
     title: "My Experience",
     items: [
       {
-        role: "Full Stack Developer",
+        role: "Full Stack Project",
         project: "E-commerce Website",
-        period: "2024-2025",
+        period: "2025",
         description:
-          "Developed and maintained full stack using frontend and backend technologies",
-        highlights: ["Node.js", "React", "MongoDB", "AWS"],
+          "Developed and maintained full stack webapp using frontend and backend technologies with connected database",
+        highlights: ["Node.js", "React", "Postman", "Supabase", "Netlify"],
+      },
+      {
+        role: "Python Advanced Project",
+        project: "Inventory Management System",
+        period: "2024",
+        description:
+          "Developed and maintained a complete Inventory Management System with connected database",
+        highlights: ["Python", "MySQL"],
+      },
+      {
+        role: "Python Advanced Project",
+        project: "Student Result Management System",
+        period: "2024",
+        description:
+          "Developed and maintained a complete Student Result Management System with connected database",
+        highlights: ["Python", "MySQL"],
+      },
+      {
+        role: "Python Advanced Project",
+        project: "AI Agent Chatbot",
+        period: "2025",
+        description:
+          "Developed and maintained a full stack AI Agent Chatbotn with web search integration and real time data processing",
+        highlights: ["Python", "OpenAI API", "Streamlit", "LangChain", "Langgraph", "Fastapi", "Uvicorn", "Tavily API", "Groq API"],
+      },
+      {
+        role: "Python App Development",
+        project: "E-commerce App",
+        period: "2024",
+        description:
+          "Developed and maintained a full stack E-commerce App with payment integration using Razorpay",
+        highlights: ["Python", "Flutter", "Mongodb", "Razorpay"],
+      },
+      {
+        role: "React Project",
+        project: "React Admin Dashboard with Real Time Data Charts Events",
+        period: "2024",
+        description:
+          "Developed and maintained a React project with real time data charts and events",
+        highlights: ["React.js", "Typescript", "Graphql", "Razorpay", "Netlify"],
+      },
+      {
+        role: "Responsive Website Development",
+        project: "Crypto Website",
+        period: "2024",
+        description:
+          "Developed and maintained a responsive landing page for a Crypto website",
+        highlights: ["HTML", "CSS", "JavaScript"],
+      },
+      {
+        role: "Three Js Project",
+        project: "3D Globe",
+        period: "2024",
+        description:
+          "Developed and maintained a responsive landing page for 3D Globe",
+        highlights: ["HTML", "CSS", "Three.js"],
       },
     ],
   },
